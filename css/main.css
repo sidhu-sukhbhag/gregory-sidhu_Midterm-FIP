@@ -322,7 +322,7 @@ p{
     font-weight: bold;
 }
 
-.main .nav .leftnav  button {
+.leftnav  button {
     height: 40px;
     width: 60px;
     background: url(../images/burger.svg) no-repeat center;
@@ -335,4 +335,4 @@ p{
     right: 9.5%;
     cursor: pointer;
     display: none;
- }
+}
