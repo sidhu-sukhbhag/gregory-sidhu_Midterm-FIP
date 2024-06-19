@@ -160,8 +160,7 @@ nav a:hover{
     width: 95%;
     height: 90vh;
     margin: 5rem auto;
-    /* background image*/
-    background: linear-gradient(to bottom, #102031, #011223);
+    background-image: url(../images/Newflavour.png);
     background-size: cover;
     margin-bottom: 3rem;
  }
@@ -222,14 +221,7 @@ nav a:hover{
     text-decoration: none;
 }
 
-.flavour-section {
-    position: relative;
-    background: linear-gradient(to bottom, #004080, #001a33);
-    background-image: url(../images/apple\ png\ 112.png);
-    color: white;
-    padding: 50px 0;
-    overflow: hidden;
-}
+
 
 .footer {
     background-color: #385666;
@@ -329,3 +321,18 @@ p{
     font-size: 15px;
     font-weight: bold;
 }
+
+.navbar-header button {
+    height: 40px;
+    width: 60px;
+    background: url(../images/burger.svg) no-repeat center;
+    margin-top: 15px;
+    transition: all .5s ease;
+    margin-bottom: 15px;
+    border: 0;
+    position: absolute;
+    top: 0px;
+    right: 9.5%;
+    cursor: pointer;
+    display: none;
+ }
